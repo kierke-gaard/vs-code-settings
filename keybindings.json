@@ -1,0 +1,52 @@
+[
+    {
+        "key": "alt+enter",
+        "command": "fsi.SendSelection",
+        "when": "editorFocus && !findWidgetVisible && editorLangId == 'fsharp'"
+    },
+    {
+        "key": "alt+enter",
+        "command": "-fsi.SendSelection",
+        "when": "editorFocus && !findWidgetVisible && editorLangId == 'fsharp'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "python.datascience.execSelectionInteractive",
+        "when": "editorFocus && python.datascience.featureenabled && python.datascience.ownsSelection && !findInputFocussed && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-python.datascience.execSelectionInteractive",
+        "when": "editorFocus && python.datascience.featureenabled && python.datascience.ownsSelection && !findInputFocussed && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "python.datascience.runcurrentcelladvance",
+        "when": "editorFocus && python.datascience.featureenabled && python.datascience.hascodecells && !editorHasSelection"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-python.datascience.runcurrentcelladvance",
+        "when": "editorFocus && python.datascience.featureenabled && python.datascience.hascodecells && !editorHasSelection"
+    },
+    {
+        "key": "shift+enter",
+        "command": "python.datascience.runcell"
+    },
+    {
+        "key": "shift+enter",
+        "command": "python.datascience.runcurrentcell"
+    },
+    {
+        "key": "ctrl+t ctrl+a",
+        "command": "python.runtests"
+    },
+    {
+        "key": "ctrl+t ctrl+t",
+        "command": "python.runCurrentTestFile"
+    },
+    {
+        "key": "ctrl+t ctrl+s",
+        "command": "python.viewTestOutput"
+    }
+]

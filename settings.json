@@ -1,0 +1,15 @@
+{
+    "window.zoomLevel": 0,
+    "clojure.leinPath": "C:/clojure/lein",
+    "clojure.toolsJar": "C:/Program Files/Java/jdk1.8.0_131/lib/tools.jar",
+    "sync.gist": "a2c6f7522b640c38b8f5d52c4ca8430f",
+    "sync.quietSync": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.forceDownload": false,
+    "terminal.integrated.rendererType": "dom",
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.unitTest.unittestEnabled": true
+}
